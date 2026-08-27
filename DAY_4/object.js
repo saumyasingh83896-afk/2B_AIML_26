@@ -4,7 +4,7 @@ let student = {
     city:"kanpur nagar",
     pincode:209401,
     salary:function(){
-        document.write("Salary is 50000");
+        console.log("Salary is 50000");
     },
     subjects:["Maths","Java","C++"]
 };
