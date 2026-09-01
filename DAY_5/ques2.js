@@ -37,3 +37,8 @@ console.log(account2.getBalance());
 
 account2.withdraw(50000);
 console.log(account2.getBalance());
+
+let account3 = new Account(103, "shukla", 15000);
+
+account3.deposit(7000);
+console.log(account3.getBalance());     
