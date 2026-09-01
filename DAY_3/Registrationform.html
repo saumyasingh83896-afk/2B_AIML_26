@@ -110,7 +110,7 @@ function validateForm() {
         document.getElementById("mobileError").innerHTML = "";
     }
 
-    // Email validation
+    
     let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
     if (!emailPattern.test(email)) {
@@ -121,7 +121,6 @@ function validateForm() {
         document.getElementById("emailError").innerHTML = "";
     }
 
-    // Password validation
     if (password.length < 6) {
         document.getElementById("passwordError").innerHTML =
             "Password must contain at least 6 characters";
