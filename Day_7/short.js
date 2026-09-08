@@ -6,13 +6,14 @@ let data = {
     [f]: "Saumya",
     [l]: "Singh",
 
-    show() {
+    
+    'detail show'() {
         console.log(this.firstname);
         console.log(this.lastname);
     }
 };
 
-data.show();
+data['detail show']();
 /*
 console.log(data.firstname);
 console.log(data.lastname);*/
